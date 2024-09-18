@@ -17,6 +17,8 @@ file
 
 ![image](https://github.com/annoyinglyghost/Images-2-/blob/main/prob%201.png)
 
+---
+
 - b. Display the first five and last five rows of the resulting cars.
 
 🌱 Input (1.b):
@@ -55,6 +57,8 @@ file[1::2].head(5)
 
 ![image](https://github.com/annoyinglyghost/Images-2-/blob/main/prob2%20a.png)
 
+---
+
 - b. Display the row that contains the ‘Model’ of ‘Mazda RX4’.
   
 🌱 Input:
@@ -65,6 +69,8 @@ file.loc[file['Model'] == 'Mazda RX4']
 🌳 Ouput:
 
 ![image](https://github.com/annoyinglyghost/Images-2-/blob/main/prob2%20b.png)
+
+---
 
 - c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
   
@@ -79,6 +85,8 @@ print(f"The Camaro Z28 has {camaro} cylinders.")
 🌳 Ouput:
 
 ![image](https://github.com/annoyinglyghost/Images-2-/blob/main/prob2%20c.png)
+
+---
 
 - d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4
 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
